@@ -10,5 +10,8 @@ public class ReturnTypes {
         double groupTotalPrice = calculateMealPrice(100, .2, .08);
         System.out.println(groupTotalPrice);
 
+        double individualMealPrice = groupTotalPrice / 5;
+        System.out.println(individualMealPrice);
+
     }
 }
